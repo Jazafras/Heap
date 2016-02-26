@@ -1,7 +1,3 @@
-//Jasmine Emerson
-//CS 122
-//Assignment 8
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -85,40 +81,5 @@ public class Heap {
 		{
 			System.out.println(test.heap[i]);
 		}
-//
-//		long startTime = System.currentTimeMillis();
-//		File file = new File("values.txt");
-//		Scanner values;
-//		
-//		//adding values to heap
-//		try 
-//		{
-//			values = new Scanner(file); //scan text file
-//			
-//			while (values.hasNextInt()) //checking if the next line is an integer
-//			{
-//				int i = values.nextInt(); 
-//				test.add(i);
-//			}
-//			values.close();
-//		} catch (FileNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		for (int i = 0; i < test.size; i++)
-//		{
-//			System.out.println(test.heap[i]);
-//		}
-//		long endTime = System.currentTimeMillis();
-//		System.out.println("It took " + (endTime - startTime) + " milliseconds to insert all the values into the heap");
-//		
-//		//removing from the heap
-//		long startTimeRemove = System.currentTimeMillis();
-//		for (int i = 0; i < test.size; i++) //go through the whole heap
-//		{
-//			test.removeMin();
-//		}
-//		long endTimeRemove = System.currentTimeMillis();
-//		System.out.println("It took " + (endTimeRemove - startTimeRemove) + " milliseconds to remove all the values from the heap");
 	}
 }
